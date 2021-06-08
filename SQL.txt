@@ -8,7 +8,7 @@ create table auto(
 
 --Удаление записи где id=2--
 
-delete from auto where id=2;
+delete from auto where id=2
 
 --Показать всё из таблицы auto--
 
