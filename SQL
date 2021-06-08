@@ -1,0 +1,14 @@
+--Создание таблицы auto--
+
+create table auto(
+	id int primary key,
+	model varchar(20),
+	year int);
+
+--Удаление записи где id=2--
+
+delete from auto where id=2;
+
+--Показать всё из таблицы auto--
+
+select * from auto
